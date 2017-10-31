@@ -1,0 +1,20 @@
+2017-10-14  Soroush Rabiei  <soroush@ametisco.ir>
+
+	* *: Initial public release of the library under LGPL terms.
+
+2017-07-12  Amirhosein Seddighi  <sedighi@tosanidm.ir>
+	* Compatible with DEB9
+
+2017-06-18  Hessam Khoshniat <hkhoshniat@tosanidm.net>
+	* src/historical_stat.hpp, src/historical_stat.tpp: bug in reset fixed.
+	get_all_stat method added
+	* configure.ac: API and Libtool version updated
+
+
+2017-01-23  Soroush Rabiei  <rabiei@tosanidm.net>
+
+	* scheduler.cpp: Removing noisy outputs
+
+2017-01-22  Amirhosein Seddighi  <sedighi@tosanidm.ir>
+    * Changelog: Start logging changes in changelog
+	* common.cpp: Add specialization for lookup->bool

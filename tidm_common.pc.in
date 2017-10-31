@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE_NAME@
+Description: Common utilities, macros and global functions of OI
+Version: @PACKAGE_VERSION@
+Requires:
+Requires.private: tidm_exception >= 7.0 
+URL: @PACKAGE_URL@
+Libs: -L${libdir} -ltidm_common
+Cflags: -I${includedir}/
